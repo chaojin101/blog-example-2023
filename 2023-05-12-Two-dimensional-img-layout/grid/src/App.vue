@@ -16,6 +16,9 @@ const totalImgAmount = 8
   grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
   gap: 4px;
 }
+.img_container {
+  aspect-ratio: 3/4;
+}
 img {
   display: block;
   width: 100%;
