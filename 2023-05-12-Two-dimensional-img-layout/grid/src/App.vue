@@ -1,9 +1,10 @@
 <script setup lang="ts">
+const totalImgAmount = 8
 </script>
 
 <template>
   <div class="container">
-    <div class="img_container" v-for="i in 7">
+    <div class="img_container" v-for="i in totalImgAmount">
       <img :src="`${i}.jpg`" alt="">
     </div>
   </div>
